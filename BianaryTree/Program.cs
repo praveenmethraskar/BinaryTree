@@ -30,6 +30,8 @@ namespace BianaryTree
             int Size = BinaryTree.GetSize();
             Console.WriteLine(Size);
 
+            bool result = BinaryTree.SearchKey(63);
+            Console.WriteLine(result);
         }
     }
 }
