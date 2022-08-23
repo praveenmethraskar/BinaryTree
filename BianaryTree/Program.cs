@@ -23,8 +23,12 @@ namespace BianaryTree
             BinaryTree.AddNode(60);
             BinaryTree.AddNode(95);
             BinaryTree.AddNode(65);
-            BinaryTree.AddNode(3); 
+            BinaryTree.AddNode(3);
 
+            //UC2:Find the size of tree
+
+            int Size = BinaryTree.GetSize();
+            Console.WriteLine(Size);
 
         }
     }
